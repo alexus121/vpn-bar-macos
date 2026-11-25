@@ -1,5 +1,8 @@
 # VPN Bar
 
+**Быстро включайте и выключайте VPN одним кликом прямо из строки меню macOS. Цвет значка при подключении подстраивается под системный акцентный цвет.**  
+**Turn your VPN on or off with one quick click from the macOS menu bar. The connected icon follows your macOS accent color.**
+
 **Русский:** Небольшое приложение для macOS, которое управляет системными VPN-подключениями прямо из строки меню. Левый клик переключает последний выбранный VPN; правый клик открывает список подключений и настройки.
 
 **English:** A small macOS menu bar app for controlling built-in VPN profiles. Left-click toggles the last selected VPN; right-click opens the connection list and settings.
@@ -10,6 +13,12 @@ VPN Bar automatically uses **Russian when Russian is the primary language in mac
 
 ## Реальные скриншоты / Screenshots from macOS
 
+### Статус сразу виден в строке меню / VPN status at a glance
+
+![VPN Bar status icon in the top-right macOS menu bar, visible without opening the VPN provider app](vpn-menubar-full.png)
+
+Значок VPN Bar находится справа в строке меню macOS и сразу показывает состояние VPN. Он не занимает место на рабочем столе и позволяет проверить подключение, не открывая приложение VPN-провайдера. / The VPN Bar icon sits in the top-right macOS menu bar and shows the VPN status at a glance. It stays out of the way and lets you check the connection without opening your VPN provider’s app.
+
 ### VPN подключён, меню открыто / VPN connected, menu open
 
 ![VPN Bar connected: open lock, active VPN profile, and icon picker](vpn-connected-menu.png)
@@ -19,22 +28,6 @@ VPN Bar automatically uses **Russian when Russian is the primary language in mac
 ![VPN Bar disconnected: closed lock in the macOS menu bar](vpn-disconnected-menubar.png)
 
 *Это скриншоты приложения в macOS: синий открытый замок показывает подключённое состояние, белый закрытый замок — отключённое. / These are screenshots of the app on macOS: the blue open lock indicates a connected VPN, and the white closed lock indicates it is disconnected.*
-
-## Примеры интерфейса / Interface previews
-
-### Русский интерфейс
-
-![VPN Bar quick toggle preview](quick-toggle.svg)
-
-![VPN Bar profile and icon picker preview](profile-picker.svg)
-
-### English interface
-
-![VPN Bar quick toggle preview in English](quick-toggle-en.svg)
-
-![VPN Bar profile and icon picker preview in English](profile-picker-en.svg)
-
-*Векторные превью интерфейса приложения / Vector previews of the app interface.*
 
 ## Русский
 
