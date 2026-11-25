@@ -1,7 +1,7 @@
 # VPN Bar
 
-**Быстро включайте и выключайте VPN одним кликом прямо из строки меню macOS. Цвет значка при подключении подстраивается под системный акцентный цвет.**  
-**Turn your VPN on or off with one quick click from the macOS menu bar. The connected icon follows your macOS accent color.**
+**Быстро включайте и выключайте VPN одним кликом прямо из строки меню macOS. Цвет обычного значка при подключении подстраивается под системный акцентный цвет.**  
+**Turn your VPN on or off with one quick click from the macOS menu bar. Connected standard icons follow your macOS accent color.**
 
 **Русский:** Небольшое приложение для macOS, которое управляет системными VPN-подключениями прямо из строки меню. Левый клик переключает последний выбранный VPN; правый клик открывает список подключений и настройки.
 
