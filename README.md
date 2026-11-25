@@ -8,6 +8,18 @@ VPN Bar automatically uses **Russian when Russian is the primary language in mac
 
 [Installer (.pkg)](https://github.com/alexus121/vpn-bar-macos/releases/download/v1.1.0-beta/VPN.Bar.Installer.pkg) · [App archive (.zip)](https://github.com/alexus121/vpn-bar-macos/releases/download/v1.1.0-beta/VPN.Bar.app.zip) · [Complete project (.zip)](https://github.com/alexus121/vpn-bar-macos/releases/download/v1.1.0-beta/VPN.Bar.Project.zip)
 
+## Реальные скриншоты / Screenshots from macOS
+
+### VPN подключён, меню открыто / VPN connected, menu open
+
+![VPN Bar connected: open lock, active VPN profile, and icon picker](vpn-connected-menu.png)
+
+### VPN отключён / VPN disconnected
+
+![VPN Bar disconnected: closed lock in the macOS menu bar](vpn-disconnected-menubar.png)
+
+*Это скриншоты приложения в macOS: синий открытый замок показывает подключённое состояние, белый закрытый замок — отключённое. / These are screenshots of the app on macOS: the blue open lock indicates a connected VPN, and the white closed lock indicates it is disconnected.*
+
 ## Примеры интерфейса / Interface previews
 
 ### Русский интерфейс
