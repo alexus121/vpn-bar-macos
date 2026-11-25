@@ -4,11 +4,25 @@
 
 **English:** A small macOS menu bar app for controlling built-in VPN profiles. Left-click toggles the last selected VPN; right-click opens the connection list.
 
+VPN Bar automatically uses **Russian when Russian is the primary language in macOS** and **English for every other system language**.
+
+[Installer (.pkg)](https://github.com/alexus121/vpn-bar-macos/releases/download/v1.0.0-beta/VPN.Bar.Installer.pkg) · [App archive (.zip)](https://github.com/alexus121/vpn-bar-macos/releases/download/v1.0.0-beta/VPN.Bar.app.zip) · [Complete project (.zip)](https://github.com/alexus121/vpn-bar-macos/releases/download/v1.0.0-beta/VPN.Bar.Project.zip)
+
+## Примеры интерфейса / Interface previews
+
+### Русский интерфейс
+
 ![VPN Bar quick toggle preview](quick-toggle.svg)
 
 ![VPN Bar profile and icon picker preview](profile-picker.svg)
 
-*Visual previews of the app interface / Векторные превью интерфейса приложения.*
+### English interface
+
+![VPN Bar quick toggle preview in English](quick-toggle-en.svg)
+
+![VPN Bar profile and icon picker preview in English](profile-picker-en.svg)
+
+*Векторные превью интерфейса приложения / Vector previews of the app interface.*
 
 ## Русский
 
@@ -16,9 +30,11 @@
 
 VPN Bar позволяет быстро включать и выключать VPN-профили macOS, не открывая Системные настройки. Если подключений несколько, можно выбрать нужное из панели приложения. Цвет обычного значка при подключении подстраивается под акцентный цвет macOS; обезьянка сохраняет свои исходные варианты оформления.
 
+Язык интерфейса выбирается автоматически: если основным языком macOS установлен русский, приложение будет на русском; при любом другом языке — на английском.
+
 ### Как пользоваться
 
-1. Установите приложение из `dist/VPN Bar Installer.pkg` или распакуйте `dist/VPN Bar.app.zip` в папку «Программы».
+1. Скачайте [установщик (.pkg)](https://github.com/alexus121/vpn-bar-macos/releases/download/v1.0.0-beta/VPN.Bar.Installer.pkg) или [архив приложения (.zip)](https://github.com/alexus121/vpn-bar-macos/releases/download/v1.0.0-beta/VPN.Bar.app.zip) из релиза. В архиве полного проекта установочные файлы находятся в папке `dist`.
 2. Добавьте VPN-профиль в **Системные настройки → VPN**. Приложение видит системные профили macOS.
 3. Запустите VPN Bar. **Левый клик** по значку в строке меню включает или выключает последний выбранный VPN; если VPN уже подключён, клик переключает активное подключение.
 4. **Правый клик** по значку открывает панель со списком VPN. Выберите другой профиль, чтобы подключиться к нему.
@@ -37,9 +53,11 @@ VPN Bar позволяет быстро включать и выключать V
 
 VPN Bar lets you quickly turn macOS VPN profiles on or off without opening System Settings. When you have multiple profiles, choose one from the app panel. The connected color of regular icons follows the macOS accent color; the monkey keeps its original artwork and colors.
 
+The interface language is selected automatically: VPN Bar uses Russian when Russian is the primary macOS language, and English for every other language.
+
 ### How to use it
 
-1. Install `dist/VPN Bar Installer.pkg`, or unzip `dist/VPN Bar.app.zip` and move the app to Applications.
+1. Download the [installer (.pkg)](https://github.com/alexus121/vpn-bar-macos/releases/download/v1.0.0-beta/VPN.Bar.Installer.pkg) or [app archive (.zip)](https://github.com/alexus121/vpn-bar-macos/releases/download/v1.0.0-beta/VPN.Bar.app.zip) from the release. In the complete project archive, installation files are in `dist`.
 2. Add a VPN profile in **System Settings → VPN**. VPN Bar works with profiles managed by macOS.
 3. Open VPN Bar. **Left-click** its menu bar icon to toggle the last selected VPN; if a VPN is already connected, the click toggles the active connection.
 4. **Right-click** the menu bar icon to open the VPN list. Choose another profile to connect to it.
